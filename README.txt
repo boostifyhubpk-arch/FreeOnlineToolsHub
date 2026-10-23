@@ -1,32 +1,26 @@
-SIMPLEKIT - ZERO-BUDGET STARTER WEBSITE
+SIMPLEKIT UPGRADED STARTER
 
-WHAT IS INCLUDED
-- index.html: homepage and three working tools
-- styles.css: responsive styling
-- script.js: tool logic
-- about.html, privacy.html, contact.html: starter information pages
-- start-local.bat: opens the website locally in your default browser
+New features:
+1. Image Compressor: client-side canvas compression; supports JPEG/WebP output, scales very large images down to 2400px maximum side.
+2. QR Code Generator: uses api.qrserver.com. The entered text/URL is sent to that external provider. Do not enter sensitive information.
+3. Unit Converter: length, weight, temperature, and decimal/binary data-size conversions.
+Existing text tools are included.
 
-RUN IT ON WINDOWS
-1. Extract the ZIP file to a folder.
-2. Double-click start-local.bat.
-3. The website opens in your browser. Internet is only needed for the optional Google Fonts import.
+UPDATE YOUR EXISTING GITHUB REPOSITORY
+1. Download and extract this ZIP.
+2. Open your GitHub repository: https://github.com/boostifyhubpk-arch/SimpleKit-Website-Starter
+3. Choose Add file > Upload files.
+4. Upload/drag all files from the extracted folder into the repository root. Do not upload the ZIP itself.
+5. If asked to replace existing files, replace index.html, styles.css, script.js, about.html, privacy.html, contact.html.
+6. Enter commit message: Add image compressor QR generator and unit converter
+7. Choose commit directly to main and click Commit changes.
+8. Wait a few minutes, then refresh GitHub Pages:
+   https://boostifyhubpk-arch.github.io/SimpleKit-Website-Starter/
 
-PUBLISH FOR FREE (GENERAL STEPS)
-1. Create an account with a static hosting provider that supports your intended use.
-2. Upload the project files, or connect a Git repository if the provider requires it.
-3. Set index.html as the site's entry page if asked.
-4. Test every page and tool on mobile and desktop.
-5. Add a real contact method and update the privacy policy for any analytics/ad services you later add.
-6. Add the site to Google Search Console and submit the sitemap after creating one.
-
-BEFORE MONETIZATION
-- Publish genuinely useful original content and make sure the site offers value beyond ads.
-- Read the current policies and eligibility requirements of the ad network you apply to.
-- Do not buy fake traffic, use VPNs to manufacture visits, auto-refresh ad pages, or automate ad clicks.
-- Never place ads in a way that tricks users into clicking them.
-- No earnings are guaranteed; traffic and ad approval may take time.
-
-IMPORTANT
-This is a starter project, not a guarantee of ad-network approval or income.
-The privacy page is a template. Update it accurately before launch.
+CHECK BEFORE PUBLISHING
+- Test all tools on desktop and mobile.
+- Update Contact page with an email address you control.
+- Review the Privacy page. It notes the external QR service.
+- Ad network approval and earnings are not guaranteed.
+- Do not use fake traffic, automated ad clicks, VPN-generated impressions, or forced redirects.
+- Keep content useful and original; comply with the ad network's current policies.
