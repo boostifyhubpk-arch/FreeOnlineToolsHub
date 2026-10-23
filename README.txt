@@ -1,26 +1,27 @@
-SIMPLEKIT UPGRADED STARTER
+FREEONLINETOOLSHUB — BLACK & WHITE STARTER
+========================================
+Design:
+- Minimal black-and-white dashboard with subtle motion
+- Responsive desktop/mobile layout
+- Search and category filters
+- 15 individual tool pages
+- Shared CSS/JS assets
+- Basic SEO titles, descriptions, robots.txt and sitemap.xml
 
-New features:
-1. Image Compressor: client-side canvas compression; supports JPEG/WebP output, scales very large images down to 2400px maximum side.
-2. QR Code Generator: uses api.qrserver.com. The entered text/URL is sent to that external provider. Do not enter sensitive information.
-3. Unit Converter: length, weight, temperature, and decimal/binary data-size conversions.
-Existing text tools are included.
-
-UPDATE YOUR EXISTING GITHUB REPOSITORY
+HOW TO DEPLOY TO GITHUB PAGES
 1. Download and extract this ZIP.
-2. Open your GitHub repository: https://github.com/boostifyhubpk-arch/SimpleKit-Website-Starter
-3. Choose Add file > Upload files.
-4. Upload/drag all files from the extracted folder into the repository root. Do not upload the ZIP itself.
-5. If asked to replace existing files, replace index.html, styles.css, script.js, about.html, privacy.html, contact.html.
-6. Enter commit message: Add image compressor QR generator and unit converter
-7. Choose commit directly to main and click Commit changes.
-8. Wait a few minutes, then refresh GitHub Pages:
-   https://boostifyhubpk-arch.github.io/SimpleKit-Website-Starter/
+2. Open your existing GitHub repository and make a backup first.
+3. Upload the CONTENTS of this folder to the repository root (not the ZIP itself).
+4. Keep index.html at the repository root and preserve the assets/ and tools/ folders.
+5. Replace YOUR-GITHUB-USERNAME and YOUR-REPOSITORY in robots.txt and sitemap.xml with your actual GitHub Pages path.
+6. In GitHub, open Settings > Pages and make sure deployment uses your intended branch and root folder.
+7. Wait for deployment, then test the homepage and each tool on desktop and mobile.
 
-CHECK BEFORE PUBLISHING
-- Test all tools on desktop and mobile.
-- Update Contact page with an email address you control.
-- Review the Privacy page. It notes the external QR service.
-- Ad network approval and earnings are not guaranteed.
-- Do not use fake traffic, automated ad clicks, VPN-generated impressions, or forced redirects.
-- Keep content useful and original; comply with the ad network's current policies.
+IMPORTANT
+- Contact page is a template; add a real monitored contact method.
+- Review the privacy page to match your actual hosting and services.
+- QR generator sends entered text/URL to api.qrserver.com. Do not enter confidential data.
+- Image tools run locally in the browser, but browser support and large-file limits may vary.
+- The cropper currently makes a centered square crop, not a drag-to-select crop.
+- No ad scripts or artificial traffic are included.
+- SEO metadata helps describe pages but does not guarantee search rankings.
